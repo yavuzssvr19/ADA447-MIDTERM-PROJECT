@@ -1,5 +1,9 @@
 # Automating Pneumonia Diagnosis: A Deep Learning Journey with Fastai
 
+## Medium
+
+https://medium.com/@yavuzssvr1619/automating-pneumonia-diagnosis-a-deep-learning-journey-with-fastai-e468c4fb6cb8 
+
 ## Overview
 
 This project implements a comprehensive deep learning pipeline for **pneumonia detection** from chest X-ray images using the **Fastai** library. It follows the structured steps outlined including data preparation, DataBlock creation, model training, evaluation, and advanced techniques like learning rate finder and transfer learning.
