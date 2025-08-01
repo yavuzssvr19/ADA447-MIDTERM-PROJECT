@@ -7,23 +7,22 @@ This project implements a comprehensive deep learning pipeline for **pneumonia d
 ## Project Structure
 
 ```
-├── ada447-midterm-project (1).ipynb   # Main Jupyter Notebook
-├── IM-0001-0001.jpeg                  # Example pneumonia image
-├── test_normal.jpeg                   # Example normal image
-└── README.md                          # Project documentation
+├── automating_pneumonia_diagnosis.ipynb   # Main Jupyter Notebook
+├── dataset                       
+└── README.md                              # Project documentation
 ```
 
 ## Installation
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yavuzssvr19/ADA447-MIDTERM-PROJECT.git
-   cd ADA447-MIDTERM-PROJECT
+   git clone https://github.com/yavuzssvr19/Automating-Pneumonia-Diagnosis.git
+   cd Automating-Pneumonia-Diagnosis
    ```
 2. **Set up the environment** (using Conda):
    ```bash
-   conda create -n ada447 python=3.11
-   conda activate ada447
+   conda create -n project python=3.11
+   conda activate project
    pip install fastai pandas matplotlib kaggle
    ```
 
@@ -197,10 +196,10 @@ learn.to_fp16()
 
 ## Running the Notebook
 
-Open `ada447-midterm-project (1).ipynb` and execute all cells in order:
+Open `automating_pneumonia_diagnosis.ipynb` and execute all cells in order:
 
 ```bash
-jupyter notebook "ada447-midterm-project (1).ipynb"
+jupyter notebook "automating_pneumonia_diagnosis.ipynb"
 ```
 
 ## Dependencies
