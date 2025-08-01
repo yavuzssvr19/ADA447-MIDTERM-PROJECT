@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a comprehensive deep learning pipeline for **pneumonia detection** from chest X-ray images using the **Fastai** library. It follows the structured steps outlined in the ADA447 midterm guidelines, including data preparation, DataBlock creation, model training, evaluation, and advanced techniques like learning rate finder and transfer learning.
+This project implements a comprehensive deep learning pipeline for **pneumonia detection** from chest X-ray images using the **Fastai** library. It follows the structured steps outlined including data preparation, DataBlock creation, model training, evaluation, and advanced techniques like learning rate finder and transfer learning.
 
 ## Project Structure
 
