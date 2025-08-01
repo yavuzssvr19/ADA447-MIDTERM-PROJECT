@@ -1,43 +1,5 @@
 # Automating Pneumonia Diagnosis: A Deep Learning Journey with Fastai
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Data Acquisition](#data-acquisition)
-  - [A.1 Download the Data](#a1-download-the-data)
-  - [A.1.1 Inspect the Data Layout](#a11-inspect-the-data-layout)
-  - [A.1.2 DataBlock Planning](#a12-datablock-planning)
-- [DataBlock & DataLoaders](#datablock--dataloaders)
-  - [A.2.1 Define Blocks](#a21-define-blocks)
-  - [A.2.2 Fetch Items into DataBlock](#a22-fetch-items-into-datablock)
-  - [A.2.3 Define Labels](#a23-define-labels)
-  - [A.2.4 Data Transformations](#a24-data-transformations)
-- [A Word on Presizing](#a-word-on-presizing)
-- [Inspecting the DataBlock](#inspecting-the-datablock)
-  - [A.3.1 Show a Batch](#a31-show-a-batch)
-  - [A.3.2 Check Labels](#a32-check-labels)
-  - [A.3.3 Summarize the DataBlock](#a33-summarize-the-datablock)
-- [Model Training](#model-training)
-  - [A.4.1 Baseline Model](#a41-baseline-model)
-  - [A.4.2 Model Interpretation](#a42-model-interpretation)
-  - [A.4.3 Confusion Matrix](#a43-confusion-matrix)
-- [Advanced Techniques](#advanced-techniques)
-  - [B.1 Learning Rate Finder](#b1-learning-rate-finder)
-  - [B.2 Finder Algorithm](#b2-finder-algorithm)
-  - [B.3 Transfer Learning](#b3-transfer-learning)
-  - [B.4 Discriminative Learning Rates](#b4-discriminative-learning-rates)
-  - [B.5 Epoch Selection](#b5-epoch-selection)
-  - [B.6 Model Capacity & Mixed Precision](#b6-model-capacity--mixed-precision)
-- [Results](#results)
-- [Running the Notebook](#running-the-notebook)
-- [Dependencies](#dependencies)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
----
-
 ## Overview
 
 This project implements a comprehensive deep learning pipeline for **pneumonia detection** from chest X-ray images using the **Fastai** library. It follows the structured steps outlined in the ADA447 midterm guidelines, including data preparation, DataBlock creation, model training, evaluation, and advanced techniques like learning rate finder and transfer learning.
@@ -250,13 +212,4 @@ jupyter notebook "ada447-midterm-project (1).ipynb"
 - matplotlib
 - Kaggle API
 
-## License
-
-This project is released under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Kaggle dataset by Paul Mooney
-- Fastai community and documentation
-- ADA447 course instructors for the project guidelines
 
