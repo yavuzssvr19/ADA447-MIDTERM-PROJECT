@@ -2,7 +2,7 @@
 
 ## Medium
 
-https://medium.com/@yavuzssvr1619/automating-pneumonia-diagnosis-a-deep-learning-journey-with-fastai-e468c4fb6cb8 
+[Medium’da oku →](https://medium.com/@yavuzssvr1619/automating-pneumonia-diagnosis-a-deep-learning-journey-with-fastai-e468c4fb6cb8)
 
 ## Overview
 
